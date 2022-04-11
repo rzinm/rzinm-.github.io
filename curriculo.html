@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Rodrigo</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    } 
+    body{
+        width: 100%;
+        color: black;
+        text-align: center;
+        min-height: 100vh;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .container{
+        width: 50%;
+        overflow-y: scroll;
+        height: 90vh;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px rgb(13, 13, 14);   
+    }
+    .container::-webkit-scrollbar{
+        width: 14px;
+        border: 1px solid rgb(20, 20, 20);
+    } 
+    .container::-webkit-scrollbar-thumb{
+        background-color: darkgrey;
+        border-radius: 6px;
+    }
+    .hr_dados1{
+        border-top: medium dashed
+        rgb(89, 91, 92);
+        border-bottom: medium dashed rgb(16, 17, 17);
+        height: 5px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_dados1::after{
+        content: "RODRIGO BRAVIN BELTRAME";
+        font-size: 1.4em;
+        padding: 0 0.3em;
+        top: -0.7em;
+        background: #fff;
+        display: inline;
+        position: relative;
+    } 
+    .hr_01{
+        border-top: medium dashed rgb(20, 20, 20);
+        border-bottom: medium dashed rgb(20, 20, 20);
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_01::after{
+        content: 'OBJETIVO';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_02{
+        border-top: medium dashed rgb(20, 20, 20);
+        border-bottom: medium dashed rgb(20, 20, 20);
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_02::after{
+        content: 'RESUMO';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_03{
+        border-top: medium dashed rgb(20, 20, 20);
+        border-bottom: medium dashed rgb(20, 20, 20);
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_03::after{
+        content: 'FORMAÇÃO';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_04{
+        border-top: medium dashed rgb(20, 20, 20);
+        border-bottom: medium dashed rgb(20, 20, 20);
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_04::after{
+        content: 'FERRAMENTAS';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_06{
+        border-top: medium dashed rgb(20, 20, 20);
+        border-bottom: medium dashed rgb(20, 20, 20);
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_06::after{
+        content: 'IDIOMAS';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_07{
+        border-top: medium dashed rgb(20, 20, 20);
+        border-bottom: medium dashed rgb(20, 20, 20);
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_07::after{
+        content: 'LINGUAGENS';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_08{
+        border-top: medium dashed rgb(20, 20, 20);
+        border-bottom: medium dashed rgb(20, 20, 20);
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_08::after{
+        content: 'CONTATO:';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .fab{
+        cursor: pointer;
+        margin: 5px;
+        max-height: 100%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .fab:hover{
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        transform: scale(1.5);
+        color: black;
+    }
+</style>
+<body>
+    <div class="container"><br><br>
+        <hr class="hr_dados1"><br><br>
+        <img src="curriculo.jpg" alt="rodrigo"width="250"height=200>
+        <h3>18 anos , Masculino </h3>
+        <h3>Rua goiás, 29101-580,Vila Velha - ES</h3>
+        <h3>GitHub:@rzinm</h3>
+        <h3>Linkedin:Rodrigo Bravin</h3><br>
+        <hr class="hr_01"><br>
+        <h3>colaborar no ambientes de trabalho com meus conhecimentos e 
+            obter experiência na área .
+        </h3><br><br>
+        <hr class="hr_02"><br>
+        <h3>Experiência em assistência técnica de informática</h3><br><br>
+        <hr class="hr_03"><br>
+        <h3>Ensino médio completo
+            cursando ensino superior na uvv  - Sistema de Informação 
+        </h3><br><br>
+        <hr class="hr_04"><br>
+        <h3>
+            Microsoft visual studio code , GitHub e Git , Word , Excel , PowerPoint e photoshop 
+        </h3><br><br>
+        <hr class="hr_06"><br>
+        <h3>Inglês Intermediário</h3><br><br>
+        <hr class="hr_07"><br>
+        <h3>Html, Phyton básico, JavaScript básico e SQL - Mysql básico</h3><br><br>
+        <hr class="hr_08"><br>
+        <h3>Whatssap: (27) 998269148</h3><br>
+        <h3>Email: rbbeltrame@hotmail.com</h3>
+</body>
+</html>
